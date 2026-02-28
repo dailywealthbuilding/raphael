@@ -1,0 +1,36 @@
+{
+  "name": "Raphael AI — Lord of Wisdom",
+  "short_name": "RAPHAEL",
+  "description": "Your personal AI companion. Offline-capable. Internet-aware. Unstoppable.",
+  "start_url": "/raphael/raphael.html",
+  "scope": "/raphael/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#00040f",
+  "theme_color": "#00c8ff",
+  "categories": ["productivity", "utilities", "education"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "New Chat",
+      "short_name": "Chat",
+      "description": "Start a new conversation with Raphael",
+      "url": "/raphael/raphael.html?action=new",
+      "icons": [{"src": "icon-192.png", "sizes": "192x192"}]
+    }
+  ]
+}
